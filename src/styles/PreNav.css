@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Raleway&display=swap");
+
+.preNav {
+  background-color: rgb(29, 28, 28);
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  color: white;
+}
+.preNav > div {
+  padding: 0 3vmax;
+  display: flex;
+  align-items: center;
+}
+.preNav > div svg {
+  fill: rgb(180, 180, 180) !important;
+}
+.preNav > div svg:hover {
+  fill: white !important;
+}
+.preNav > div > span {
+  color: rgba(180, 180, 180, 0.644);
+  font-weight: 100;
+  font-size: 0.8vmax;
+}
+.preNav > div > a {
+  color: rgba(180, 180, 180);
+  font-size: 0.9vmax;
+  font-weight: 300;
+  text-decoration: none;
+  margin: 1vmax;
+  font-family: "Mulish", sans-serif;
+}
+.preNav > div > a:hover {
+  color: white;
+}
+.cart-anchor {
+  display: flex;
+  align-items: center;
+}

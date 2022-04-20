@@ -1,0 +1,63 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+  padding: 4vmax;
+  background-color: rgb(37, 37, 37);
+  color: rgb(197, 197, 197);
+}
+.footer > div p {
+  font-size: 1vmax;
+  font-weight: 500;
+}
+.footer > div {
+  margin: 1vmax;
+  display: flex;
+  flex-direction: column;
+}
+.footer > div:nth-child(2) {
+  display: block;
+}
+.footer > div:nth-child(2) > a {
+  display: inline-block;
+}
+.footer > div > a {
+  color: rgb(197, 197, 197);
+  text-decoration: none;
+  margin: 0.6vmax 0;
+  font-size: 0.98vmax;
+}
+.footer > div > a:hover {
+  color: white;
+}
+.footer > div:last-child > div {
+  width: 45%;
+  font-size: 0.8vmax;
+  margin: 1vmax 0;
+}
+.footer > div:last-child > button {
+  width: 50%;
+  border: 1px solid white;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  padding: 0.6vmax 0;
+  font-size: 0.98vmax;
+  font-weight: 100;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: all 0.5s;
+}
+.footer > div:last-child > button:hover {
+  background-color: white;
+  color: rgb(37, 37, 37);
+}
+.footerBorder {
+  background-color: rgb(37, 37, 37);
+  color: rgb(197, 197, 197);
+}
+.footerBorder div {
+  border-top: 1px solid rgba(197, 197, 197, 0.185);
+  font-size: 1vmax;
+  padding: 2vmax 0;
+  width: 90vw;
+  margin: auto;
+  font-size: 0.98vmax;
+}
